@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="myH"></h1>
+    <p id="myP"></p>
+
+    <h1>JavaScript Variables</h1>
+    <p>Sum of Two Numbers</p>
+    <p id="result"></p>
+
+    <script>
+      document.getElementById("myH").innerHTML = "Introduction to Javascript";
+      document.getElementById("myP").innerHTML =
+        "This is the First time Writing JS Codes";
+
+      var x = 100;
+      var y = 150;
+      var sum = x + y;
+
+      document.getElementById("result").innerHTML = sum;
+    </script>
+  </body>
+</html>
